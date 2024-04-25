@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-24T15:09:28 CDT" name="Suite" finished-at="2024-04-24T15:10:58 CDT" duration-ms="89701">
+    <groups>
+    </groups>
+    <test started-at="2024-04-24T15:09:28 CDT" name="Test" finished-at="2024-04-24T15:10:58 CDT" duration-ms="89701">
+      <class name="tutorialsNinja.TestCases.RegisterTest">
+        <test-method signature="verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:28 CDT" name="verifyRegisterWithMandatoryDetails" data-provider="TNRegister" finished-at="2024-04-24T15:09:29 CDT" duration-ms="866" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: verifyRegisterWithMandatoryDetails([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4])
+Arguments: [(java.lang.String) Mimiche01,(java.lang.String) nait,(java.lang.String) 1236547890,(java.lang.String) mimichenait@gmail.com,(java.lang.String) Mimichenait01,(java.lang.String) Mimichenait01]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void tutorialsNinja.TestCases.RegisterTest.verifyRegisterWithMandatoryDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: verifyRegisterWithMandatoryDetails([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4])
+Arguments: [(java.lang.String) Mimiche01,(java.lang.String) nait,(java.lang.String) 1236547890,(java.lang.String) mimichenait@gmail.com,(java.lang.String) Mimichenait01,(java.lang.String) Mimichenait01]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:918)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:29 CDT" name="setup" finished-at="2024-04-24T15:09:36 CDT" duration-ms="6495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:36 CDT" name="verifyRegisterWithAllDetails" finished-at="2024-04-24T15:09:37 CDT" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:37 CDT" name="tearDown" finished-at="2024-04-24T15:09:37 CDT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:37 CDT" name="setup" finished-at="2024-04-24T15:09:42 CDT" duration-ms="4588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:42 CDT" name="verifyRegisterWithExistingEmail" finished-at="2024-04-24T15:09:43 CDT" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:43 CDT" name="tearDown" finished-at="2024-04-24T15:09:46 CDT" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:46 CDT" name="setup" finished-at="2024-04-24T15:09:51 CDT" duration-ms="4793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithWrongConfirmPassword()[pri:4, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:51 CDT" name="verifyRegisterWithWrongConfirmPassword" finished-at="2024-04-24T15:09:52 CDT" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithWrongConfirmPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:52 CDT" name="tearDown" finished-at="2024-04-24T15:09:53 CDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:53 CDT" name="setup" finished-at="2024-04-24T15:09:56 CDT" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithNoDetails()[pri:5, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:56 CDT" name="verifyRegisterWithNoDetails" finished-at="2024-04-24T15:09:57 CDT" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithNoDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.RegisterTest@4218d6a3]" started-at="2024-04-24T15:09:57 CDT" name="tearDown" finished-at="2024-04-24T15:09:57 CDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialsNinja.TestCases.RegisterTest -->
+      <class name="tutorialsNinja.TestCases.SearchProduct">
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:48 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:50 CDT" duration-ms="2613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifySearchValidProduct()[pri:1, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:50 CDT" name="verifySearchValidProduct" finished-at="2024-04-24T15:10:51 CDT" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:51 CDT" name="tearDown" finished-at="2024-04-24T15:10:51 CDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:51 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:54 CDT" duration-ms="2670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifySearchInvalidProduct()[pri:2, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:54 CDT" name="verifySearchInvalidProduct" finished-at="2024-04-24T15:10:54 CDT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:54 CDT" name="tearDown" finished-at="2024-04-24T15:10:54 CDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:54 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:57 CDT" duration-ms="2730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifySearchNoProduct()[pri:3, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:57 CDT" name="verifySearchNoProduct" finished-at="2024-04-24T15:10:58 CDT" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsNinja.TestCases.SearchProduct@6025e1b6]" started-at="2024-04-24T15:10:58 CDT" name="tearDown" finished-at="2024-04-24T15:10:58 CDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialsNinja.TestCases.SearchProduct -->
+      <class name="tutorialsNinja.TestCases.LoginTest">
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:09:57 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:00 CDT" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:00 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:01 CDT" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:01 CDT" name="tearDwon" finished-at="2024-04-24T15:10:01 CDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:01 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:04 CDT" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:04 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:06 CDT" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:06 CDT" name="tearDwon" finished-at="2024-04-24T15:10:06 CDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:06 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:09 CDT" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:09 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:10 CDT" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait02@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:10 CDT" name="tearDwon" finished-at="2024-04-24T15:10:10 CDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:10 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:13 CDT" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:13 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:14 CDT" duration-ms="1003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:14 CDT" name="tearDwon" finished-at="2024-04-24T15:10:14 CDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:14 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:18 CDT" duration-ms="3125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:18 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:19 CDT" duration-ms="972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait04@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:19 CDT" name="tearDwon" finished-at="2024-04-24T15:10:19 CDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:19 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:22 CDT" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:22 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:23 CDT" duration-ms="986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait05@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait06]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:23 CDT" name="tearDwon" finished-at="2024-04-24T15:10:23 CDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:23 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:26 CDT" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:26 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:27 CDT" duration-ms="986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait06@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:27 CDT" name="tearDwon" finished-at="2024-04-24T15:10:28 CDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:28 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:31 CDT" duration-ms="3242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:31 CDT" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2024-04-24T15:10:32 CDT" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mimichenait07@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mimichenait08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:32 CDT" name="tearDwon" finished-at="2024-04-24T15:10:32 CDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:32 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:35 CDT" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithINValidPassword()[pri:2, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:35 CDT" name="verifyLoginWithINValidPassword" finished-at="2024-04-24T15:10:36 CDT" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithINValidPassword -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:36 CDT" name="tearDwon" finished-at="2024-04-24T15:10:36 CDT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:36 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:40 CDT" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithInValidEmail()[pri:3, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:40 CDT" name="verifyLoginWithInValidEmail" finished-at="2024-04-24T15:10:40 CDT" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidEmail -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:40 CDT" name="tearDwon" finished-at="2024-04-24T15:10:41 CDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:41 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:44 CDT" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:44 CDT" name="verifyLoginWithInvalidCredentials" finished-at="2024-04-24T15:10:44 CDT" duration-ms="210" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+at tutorialsNinja.Pages.LoginPage.navigateToLoginPageByCombinig3Actions(LoginPage.java:31)
+at tutorialsNinja.TestCases.LoginTest.verifyLoginWithInvalidCredentials(LoginTest.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:44 CDT" name="tearDwon" finished-at="2024-04-24T15:10:44 CDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="LoginSetUp()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:44 CDT" name="LoginSetUp" finished-at="2024-04-24T15:10:47 CDT" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetUp -->
+        <test-method signature="verifyLoginWithValidNoCredentials()[pri:5, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:47 CDT" name="verifyLoginWithValidNoCredentials" finished-at="2024-04-24T15:10:48 CDT" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidNoCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:tutorialsNinja.TestCases.LoginTest@40a4337a]" started-at="2024-04-24T15:10:48 CDT" name="tearDwon" finished-at="2024-04-24T15:10:48 CDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- tutorialsNinja.TestCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
